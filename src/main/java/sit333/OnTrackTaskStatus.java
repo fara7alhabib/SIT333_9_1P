@@ -26,6 +26,7 @@ public class OnTrackTaskStatus {
 
         if (status.equalsIgnoreCase("Submitted")) {
             return taskName + " has been submitted and is waiting for tutor review";
+            // trigger CI
         }
 
         return "Unknown task status";
